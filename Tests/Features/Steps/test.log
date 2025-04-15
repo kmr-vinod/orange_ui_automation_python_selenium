@@ -1,0 +1,21 @@
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.85\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.85
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.84
+DEBUG:selenium.webdriver.common.selenium_manager:Acquiring lock: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.84\sm.lock
+DEBUG:selenium.webdriver.common.selenium_manager:Downloading chromedriver 135.0.7049.84 from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win64/chromedriver-win64.zip
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.84\chromedriver.exe` in a child process with pid: 4660 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59861/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59861
+DEBUG:urllib3.connectionpool:http://localhost:59861 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.85","chrome":{"chromedriverVersion":"135.0.7049.84 (6c019e56001911b3fd467e03bf68c435924d62f4-refs/branch-heads/7049@{#1778})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir4660_1517338623"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59867"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"8d1e69df96e82e40e126b52113b18eba"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'

@@ -1,0 +1,13 @@
+DEBUG:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+DEBUG:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+DEBUG:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+DEBUG:builtins:Admin
+DEBUG:builtins:admin123
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:parse:format 'login to application' -> 'login to application'
