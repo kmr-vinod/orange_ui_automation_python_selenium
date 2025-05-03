@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout') { // Checkout (git clone ...) the projects repository
       steps {
         script {
-            git branch: "main", credentialsId: 'b17d92b0-951b-4177-aa88-8627765ea6de', url: "https://github.com/kmr-vinod/orange_ui_automation_python_selenium.git"
+            git branch: "main", credentialsId: 'b17d92b0-951b-4177-aa88-8627765ea6de', url: "git@github.com:kmr-vinod/orange_ui_automation_python_selenium.git"
             }
       }
     }
