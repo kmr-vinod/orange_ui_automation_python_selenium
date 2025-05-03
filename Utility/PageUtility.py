@@ -62,6 +62,7 @@ class PageUtility:
         wait.until(expected_conditions.presence_of_element_located((By.XPATH, xPath)))
         element = driver.find_element(By.XPATH, xPath)
         logger.info('Clicking side nav menu with label "', label, '"')
+        logger.info('test-trigger')
         element.click()
 
 
