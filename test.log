@@ -386,3 +386,796 @@ DEBUG:parse:format 'login to application' -> 'login to application'
 INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 INFO:builtins:Admin
 INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:Acquiring lock: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\sm.lock
+DEBUG:selenium.webdriver.common.selenium_manager:Downloading chromedriver 135.0.7049.114 from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win64/chromedriver-win64.zip
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 9180 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:50864/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:50864
+DEBUG:urllib3.connectionpool:http://localhost:50864 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir9180_1224775292"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50870"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"8e004d51e2143509bb3026ba448101d7"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 5652 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:50974/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:50974
+DEBUG:urllib3.connectionpool:http://localhost:50974 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir5652_990016648"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:50977"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"4fe8dbc001d31c73f236cafc2c0a5497"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 12260 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:53291/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:53291
+DEBUG:urllib3.connectionpool:http://localhost:53291 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir12260_1823187960"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:53296"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"829c61454fef0109b54e6a004ff4e0ac"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 6192 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:54565/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:54565
+DEBUG:urllib3.connectionpool:http://localhost:54565 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir6192_1069613850"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54572"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"4afccecc37fdfc7d49d29cceedaac953"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 6264 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:54690/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:54690
+DEBUG:urllib3.connectionpool:http://localhost:54690 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir6264_783295224"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54693"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2c178a02cc27fd9f5c8a78d51a063d98"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 12652 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:54713/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:54713
+DEBUG:urllib3.connectionpool:http://localhost:54713 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir12652_184532707"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:54716"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2c39faa5819ced76acff52a1064cd494"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 9556 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59197/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59197
+DEBUG:urllib3.connectionpool:http://localhost:59197 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir9556_976296098"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59204"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"0199f51925a3a177a0926bbcb4d819f3"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 13548 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59212/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59212
+DEBUG:urllib3.connectionpool:http://localhost:59212 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir13548_1098346715"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59216"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6c66a651b6359f1a2e2879b2de5015f1"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 4552 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62331/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:62331
+DEBUG:urllib3.connectionpool:http://localhost:62331 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir4552_592969789"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62335"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"3b514cd590bbeceaf54ed7c8d509f28f"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14920 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62343/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:62343
+DEBUG:urllib3.connectionpool:http://localhost:62343 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14920_43897951"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62347"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"247d9d4299f3219bc37f6fb70fb931e7"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 2808 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62870/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:62870
+DEBUG:urllib3.connectionpool:http://localhost:62870 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2808_354963573"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62876"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"9f79c42d65e15bb81afe540c1bd70863"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 7252 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:62886/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:62886
+DEBUG:urllib3.connectionpool:http://localhost:62886 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir7252_373266935"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:62891"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"25b2bef9484ebf3569f2143a59408a6d"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 9264 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63322/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63322
+DEBUG:urllib3.connectionpool:http://localhost:63322 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir9264_1299846946"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63325"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"dcc781b10a974fcc2d6be600d9c3ee3e"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14808 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63426/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63426
+DEBUG:urllib3.connectionpool:http://localhost:63426 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14808_1512370706"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63429"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"9065cc4a8a99076a9e09970128567d10"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 7064 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63577/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63577
+DEBUG:urllib3.connectionpool:http://localhost:63577 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir7064_1334429225"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63581"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"7fdd8063fcbd304d3dff7fcf448232eb"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 3256 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63655/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63655
+DEBUG:urllib3.connectionpool:http://localhost:63655 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir3256_494953587"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63658"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"66b5448c23b09dbd677d54e148f6e429"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 11136 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63753/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63753
+DEBUG:urllib3.connectionpool:http://localhost:63753 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir11136_247350819"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63756"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"eaa2adbd4db977971d40cfd408eff915"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 3000 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63836/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63836
+DEBUG:urllib3.connectionpool:http://localhost:63836 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir3000_1395228865"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63841"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"898fd05ce601568719b58f1189e89a8c"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 8396 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:63963/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:63963
+DEBUG:urllib3.connectionpool:http://localhost:63963 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir8396_74073463"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:63966"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"3b7cb967455eab20f2e59ca60a98a722"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14680 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64068/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64068
+DEBUG:urllib3.connectionpool:http://localhost:64068 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14680_628757101"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64072"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"3adb3a4cf6bc76f82efc763da74ae030"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 10720 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64098/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64098
+DEBUG:urllib3.connectionpool:http://localhost:64098 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir10720_10550178"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64102"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"f325210c527f8ab1c420b4b377061c06"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 13316 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64128/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64128
+DEBUG:urllib3.connectionpool:http://localhost:64128 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir13316_3170670"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64132"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"d9bf344500abb0c323988e67b594e2c1"}} | headers=HTTPHeaderDict({'Content-Length': '881', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 9256 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64229/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64229
+DEBUG:urllib3.connectionpool:http://localhost:64229 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir9256_511092634"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64233"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ec4875b2598b2384dbc17e69b0252bbd"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+INFO:builtins:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+INFO:builtins:Admin
+INFO:builtins:admin123
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 4216 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64437/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64437
+DEBUG:urllib3.connectionpool:http://localhost:64437 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir4216_1990808011"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64440"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"ba352d717da00f4e106fbc92f83c5760"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 5900 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:64497/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:64497
+DEBUG:urllib3.connectionpool:http://localhost:64497 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir5900_1196820487"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:64500"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"eca60f92ea8772a1d7e5d9aa639da3d7"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 1728 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:55891/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:55891
+DEBUG:urllib3.connectionpool:http://localhost:55891 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir1728_1456252510"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:55897"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"aa6e82957e9981dce4088a96223eefa6"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14168 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58649/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:58649
+DEBUG:urllib3.connectionpool:http://localhost:58649 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14168_2097480950"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58653"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"5e34903b676fbb307be308b11bb12452"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click {string} on side navigation' -> 'click (?P<string>.+?) on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14008 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58816/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:58816
+DEBUG:urllib3.connectionpool:http://localhost:58816 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14008_1838628814"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58820"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6e0cd58b48c3aceb916b2ffd8ac0bf5b"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click {String} on side navigation' -> 'click (?P<String>.+?) on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 8740 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58856/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:58856
+DEBUG:urllib3.connectionpool:http://localhost:58856 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir8740_1548542818"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58860"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a91cf03e721693eaec90840db29e0130"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format "click <class 'str'> on side navigation" -> "click <class 'str'> on side navigation"
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 7572 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:58920/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:58920
+DEBUG:urllib3.connectionpool:http://localhost:58920 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir7572_1016610617"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:58925"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"5084bf3942a7b2e412579f9ee1dc59f2"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click {str} on side navigation' -> 'click (?P<str>.+?) on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14724 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59132/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59132
+DEBUG:urllib3.connectionpool:http://localhost:59132 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14724_507650572"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59136"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"faf636a7ae500d2443a538ea79ad912e"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format "click '{label}' link on side navigation" -> "click '(?P<label>.+?)' link on side navigation"
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 8588 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59267/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59267
+DEBUG:urllib3.connectionpool:http://localhost:59267 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir8588_1874376111"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59270"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"6550565fc210ecf8ee5e5ff8a3163073"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14416 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59300/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59300
+DEBUG:urllib3.connectionpool:http://localhost:59300 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14416_24255938"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59303"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"a1277e3a6e0adcda47a5295ea974fe86"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 14048 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59480/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59480
+DEBUG:urllib3.connectionpool:http://localhost:59480 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir14048_1354632757"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59484"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2808e69113e0e13193ff6cb2e4eff416"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.30" }
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 13736 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:59859/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:59859
+DEBUG:urllib3.connectionpool:http://localhost:59859 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir13736_128278693"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:59864"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"242f4df85f8195470158882ed3b64226"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{link_name}" link on side navigation' -> 'click "(?P<link_name>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 13352 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60007/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60007
+DEBUG:urllib3.connectionpool:http://localhost:60007 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir13352_380111733"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60011"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"87c1de24154463fb8fd51bf8ccd86c58"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 13960 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60331/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60331
+DEBUG:urllib3.connectionpool:http://localhost:60331 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir13960_389540312"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60335"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2c0a2a9fbd25a987d2e596103c391d17"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 11016 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60585/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60585
+DEBUG:urllib3.connectionpool:http://localhost:60585 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir11016_598728932"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60588"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"dad2f9057937adfda97e4a04880ae6ad"}} | headers=HTTPHeaderDict({'Content-Length': '883', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
+DEBUG:selenium.webdriver.common.selenium_manager:Selenium Manager binary found at: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Executing process: C:\Users\admin\PycharmProjects\UI-AutomationpProject-Python\venv\Lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver not found in PATH
+DEBUG:selenium.webdriver.common.selenium_manager:chrome detected at C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Running command: wmic datafile where name='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG:selenium.webdriver.common.selenium_manager:Output: "\r\r\n\r\r\nVersion=135.0.7049.115\r\r\n\r\r\n\r\r\n\r"
+DEBUG:selenium.webdriver.common.selenium_manager:Detected browser: chrome 135.0.7049.115
+DEBUG:selenium.webdriver.common.selenium_manager:Required driver: chromedriver 135.0.7049.114
+DEBUG:selenium.webdriver.common.selenium_manager:chromedriver 135.0.7049.114 already in the cache
+DEBUG:selenium.webdriver.common.selenium_manager:Driver path: C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe
+DEBUG:selenium.webdriver.common.selenium_manager:Browser path: C:\Program Files\Google\Chrome\Application\chrome.exe
+DEBUG:selenium.webdriver.common.service:Started executable: `C:\Users\admin\.cache\selenium\chromedriver\win64\135.0.7049.114\chromedriver.exe` in a child process with pid: 8848 using 0 to output -3
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://localhost:60620/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:60620
+DEBUG:urllib3.connectionpool:http://localhost:60620 "POST /session HTTP/1.1" 200 0
+DEBUG:selenium.webdriver.remote.remote_connection:Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"135.0.7049.115","chrome":{"chromedriverVersion":"135.0.7049.114 (63fd8a7d9d09e41ba37b84386c85d5f249f848f7-refs/branch-heads/7049@{#2175})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir8848_448875453"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:60623"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"287b77831d48156480d7205e5486601f"}} | headers=HTTPHeaderDict({'Content-Length': '882', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:parse:format 'login to application' -> 'login to application'
+DEBUG:parse:format 'verify if dashboard is displayed' -> 'verify if dashboard is displayed'
+DEBUG:parse:format 'click "{label}" link on side navigation' -> 'click "(?P<label>.+?)" link on side navigation'
