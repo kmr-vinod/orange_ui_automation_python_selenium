@@ -1,11 +1,10 @@
 pipeline {
   options {
     buildDiscarder(logRotator(numToKeepStr: '10')) // Retain history on the last 10 builds
-//     ansiColor('xterm') // Enable colors in terminal
     timestamps() // Append timestamps to each line
     timeout(time: 20, unit: 'MINUTES') // Set a timeout on the total execution time of the job
   }
-  agent none
+  agent any
   stages {  // Define the individual processes, or stages, of your CI pipeline
     stage('Checkout') { // Checkout (git clone ...) the projects repository
       steps {
@@ -15,27 +14,22 @@ pipeline {
     stage('Setup') { // Install any dependencies you need to perform testing
       steps {
         script {
-          sh """
-          pip install -r requirements.txt
-          """
+            powershell 'python.exe -m pip install --upgrade pip'
+            powershell 'pip install -r requirements.txt'
         }
       }
     }
-    stage('Linting') { // Run pylint against your code
-      steps {
-        script {
-          sh """
-          pylint **/*.py
-          """
-        }
-      }
-    }
+//     stage('Linting') { // Run pylint against your code
+//       steps {
+//         script {
+//           powershell 'pylint **/*.py'
+//         }
+//       }
+//     }
     stage('Run tests') { // Run pylint against your code
       steps {
         script {
-          sh """
-          behave Tests/Features/
-          """
+            powershell 'behave Tests/Features'
         }
       }
     }
