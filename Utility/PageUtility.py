@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='test.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 20)
 
