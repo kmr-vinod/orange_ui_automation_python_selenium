@@ -11,7 +11,7 @@ pipeline {
   stages {  // Define the individual processes, or stages, of your CI pipeline
     stage('Init') {
         steps {
-            echo 'Initiating...'
+            echo 'Initiating..'
         }
 
     }
