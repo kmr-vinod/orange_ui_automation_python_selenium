@@ -26,7 +26,7 @@ pipeline {
 //         }
 //       }
 //     }
-    stage('Run tests') { // Run pylint against your code
+    stage('Run tests') { // Run test cases
       steps {
         script {
             powershell 'behave Tests/Features'
