@@ -14,6 +14,7 @@ pipeline {
     stage('Setup') { // Install any dependencies you need to perform testing
       steps {
         script {
+            powershell 'python -version'
             powershell 'python.exe -m pip install --upgrade pip'
             powershell 'pip install -r requirements.txt'
         }
